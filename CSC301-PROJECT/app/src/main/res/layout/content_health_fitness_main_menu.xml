@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/healthFitnessMainMenuConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/healthFitnessMainMenuContentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="350sp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/logBodyWeightLinkButton"
+            android:layout_gravity="center"
+            android:background="#2196F3"
+            android:layout_marginTop="20dp"
+            android:text="Body Weight"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+
+        <Button
+            android:id="@+id/logCaloriesLinkButton"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="#2196F3"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Calories"
+            android:textColor="@color/colorWhite" />
+
+
+        <Button
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/logBodyFatLinkButton"
+            android:layout_gravity="center"
+            android:background="#2196F3"
+            android:layout_marginTop="20dp"
+            android:text="Body Fat"
+            android:textColor="@color/colorWhite"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

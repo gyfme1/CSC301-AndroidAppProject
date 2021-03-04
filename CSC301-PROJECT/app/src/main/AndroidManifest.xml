@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="utm.csc301.theBrogrammers.myPlanBook">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".Notification.NotificationChannels"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".FinancialHub.YearlySavings"
+            android:label="@string/title_activity_yearly_savings"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".FinancialHub.CategoryPopup"
+            android:theme="@style/AppTheme.popUpTheme"/>
+        <activity android:name=".FinancialHub.ManageFinances" />
+        <activity
+            android:name=".FinancialHub.GoalProgress"
+            android:label="@string/title_activity_goal_progress"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FinancialHub.AddGoal"
+            android:label="@string/title_activity_add_goal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FinancialHub.ManuallyLoadTransactions" />
+        <activity
+            android:name=".Notification.Notification_Demo"
+            android:label="@string/title_activity_notification__demo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WishList"
+            android:label="@string/title_activity_wish_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FinancialHub.LoadTransactions" />
+        <activity
+            android:name=".Feedback"
+            android:label="Feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogBodyFat.LogBodyFatActivity"
+            android:label="@string/title_activity_log_body_fat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogWorkouts.LogWorkoutsActivity"
+            android:label="@string/title_activity_log_workouts"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogCalories.LogCaloriesActivity"
+            android:label="@string/title_activity_log_calories"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HealthFitnessMainMenu.HealthFitnessMainMenuActivity" />
+        <activity
+            android:name=".login.Signup"
+            android:label="@string/title_activity_signup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.PlannerSelector"
+            android:label="@string/title_activity_planner_selector"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".login.MainLoginActivity"
+            android:label="@string/title_activity_main_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".FinancialHub.FinancialHubActivity" />
+        <activity
+            android:name=".ChangePassword"
+            android:label="@string/title_activity_change_password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/title_activity_settings"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ProfileSetting"
+            android:label="@string/title_activity_profileSetting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calendar.CalendarEventsModel"
+            android:label="@string/title_activity_add_event"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".calendar.CalendarEventsActivity"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LogBodyWeight.LogBodyWeightActivity"
+            android:label="@string/title_activity_log_body_weight"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".login.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".Notification.NotificationReceiver"
+            android:exported="true"
+            android:enabled="true">
+
+        </receiver>
+
+    </application>
+
+</manifest>

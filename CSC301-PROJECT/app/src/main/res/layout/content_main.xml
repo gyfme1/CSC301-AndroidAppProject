@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <ScrollView
+        android:id="@+id/scrollview_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_calender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:src="@drawable/calendar"/>
+
+            <Button
+                android:id="@+id/calendar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@color/babyBlue"
+                android:text="Calender"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:typeface="sans"/>
+
+            <Button
+                android:id="@+id/goals"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="Financial hub"
+                android:textColor="@color/colorWhite"
+                android:background="@color/babyBlue"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:typeface="sans"/>
+
+            <Button
+                android:id="@+id/fitness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="HEALTH AND FITNESS"
+                android:textColor="@color/colorWhite"
+                android:background="@color/babyBlue"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:typeface="sans" />
+
+            <Button
+                android:id="@+id/WishList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:text="WISH LIST"
+                android:background="@color/babyBlue"
+                android:textColor="@color/colorWhite"
+                android:textSize="25sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:typeface="sans"/>
+
+            <ImageButton
+                android:id="@+id/setting"
+                style="@android:style/Widget.Holo.Light.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="#FFFFFF"
+                android:scaleType="fitCenter"
+                android:src="@drawable/setting"
+                android:layout_gravity="end"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

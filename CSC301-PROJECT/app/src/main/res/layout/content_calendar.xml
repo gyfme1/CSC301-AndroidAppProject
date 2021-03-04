@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".calendar.CalendarEventsActivity"
+    tools:showIn="@layout/activity_calendar">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp" >
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="#DDDDDD"
+            android:gravity="center_vertical"
+            />
+
+        <TextView
+            android:id="@+id/myCalendarMonth"
+            android:layout_width="292dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="#DDDDDD"
+            android:gravity="center_vertical"
+            android:text="Month"
+            android:textColor="#2196F3"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="#DDDDDD"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <com.github.sundeepk.compactcalendarview.CompactCalendarView
+
+            android:id="@+id/compactcalendar_view"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+
+            app:compactCalendarDisplayOtherMonthDays="true"
+            app:compactCalendarOtherMonthDaysTextColor="#2196F3"
+            app:compactCalendarTargetHeight="250dp"
+            app:compactCalendarTextSize="12sp"
+            app:compactCalendarBackgroundColor="#fff"
+            app:compactCalendarTextColor="#010203"
+            app:compactCalendarCurrentSelectedDayBackgroundColor="#DDDDDD"
+            app:compactCalendarMultiEventIndicatorColor="#fff" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addEvent"
+        android:layout_gravity="center"
+        android:background="#2196F3"
+        android:layout_marginTop="50dp"
+        android:text="Add Event"
+        android:textColor="@color/colorWhite"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"/>
+
+
+    <TableLayout
+        android:layout_gravity="right"
+        android:id="@+id/displayEvents"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </TableLayout>
+
+
+
+
+</LinearLayout>

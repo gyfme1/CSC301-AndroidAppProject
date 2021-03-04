@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/healthFitnessConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HealthFitnessMainMenu.HealthFitnessMainMenuActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:layout_width="102dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="#DDDDDD"
+            android:gravity="center_vertical"
+
+            app:srcCompat="@drawable/dumbbell" />
+
+        <TextView
+            android:id="@+id/textViewHealthFitnessTitle"
+            android:layout_width="292dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="#DDDDDD"
+            android:gravity="center_vertical"
+            android:text="Health and Fitness"
+
+            android:textColor="#2196F3"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:fontFamily="sans-serif-condensed-medium" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="#DDDDDD"
+            android:gravity="center_vertical"
+            />
+    </LinearLayout>
+
+
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_health_fitness_main_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
