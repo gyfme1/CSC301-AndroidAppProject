@@ -89,7 +89,7 @@ At the right side of the "DELETE" button, there is another button named "SHARE".
 
 This is the main page you will see after login. You can select to go to Calender, Financial Hub, Body Log, Wish List, or Setting page from this page.
 <p float="left">
-  <img src="https://github.com/UTMCSC301/project-thebrogrammers/blob/master/doc/screenshots/MainPage.png" width="216" height="384" />
+  <img src="https://github.com/UTMCSC301/project-thebrogrammers/blob/master/doc/screenshots/MainPage.png" width="512" height="384" />
 </p>
 
 ## Setting Page
@@ -102,15 +102,15 @@ This is the page where you can change your account password. You are asked to en
 This is the page you can provide any feedback to the developers. You can type in text box and click Submit to upload your advice.
 
 <p float="left">
-  <img src="https://github.com/UTMCSC301/project-thebrogrammers/blob/master/doc/screenshots/profile.png" width="216" height="384" />
-  <img src="https://github.com/UTMCSC301/project-thebrogrammers/blob/master/doc/screenshots/ChangePassword.png" width="216" height="384" /> 
-  <img src="https://github.com/UTMCSC301/project-thebrogrammers/blob/master/doc/screenshots/Feedback.png" width="216" height="384" />
+  <img src="https://github.com/gyfme1/CSC301-AndroidAppProject/blob/3b6c1587c26a79c762efd9539ac1389c68d4082a/CSC301-PROJECT/screenshots/Profile.PNG" width="216" height="384" />
+  <img src="https://github.com/gyfme1/CSC301-AndroidAppProject/blob/3b6c1587c26a79c762efd9539ac1389c68d4082a/CSC301-PROJECT/screenshots/ChangePassword.png" width="216" height="384" /> 
+  <img src="https://github.com/gyfme1/CSC301-AndroidAppProject/blob/3b6c1587c26a79c762efd9539ac1389c68d4082a/CSC301-PROJECT/screenshots/Feedback.png" width="216" height="384" />
 </p>
 
 ### Profile
 
-<img align="right" src="https://github.com/UTMCSC301/project-thebrogrammers/blob/master/doc/screenshots/profilesetting.png" width="216" height="384">
-<img align="right" src="https://github.com/UTMCSC301/project-thebrogrammers/blob/master/doc/screenshots/Profile.PNG" width="216" height="384">
+<img align="right" src="https://github.com/gyfme1/CSC301-AndroidAppProject/blob/3b6c1587c26a79c762efd9539ac1389c68d4082a/CSC301-PROJECT/screenshots/profilesetting.png" width="216" height="384">
+<img align="right" src="https://github.com/gyfme1/CSC301-AndroidAppProject/blob/3b6c1587c26a79c762efd9539ac1389c68d4082a/CSC301-PROJECT/screenshots/Profile.PNG" width="216" height="384">
 
 This page allows the user to view their personal information such as name, email addess, account number, phone number, city, and country. This is a scrollview so it is suitable for most of the screen sizes. It also allows the user to choose their icon from the android gallery. Whenever the user click the icon at the top of this page, a selector will pop up which allows user to choose picture from android gallery. If user wants their own picture to be the icon, they can also upload their own pictures to the android gallery first, and then choose from the gallery.
 
